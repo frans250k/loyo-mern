@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Announcement = () => {
-  return <Container>Super Deal! Free Shiping and Orders Over Rp. 50.000</Container>;
+  return <Container>Super Deal! Free Shiping and Orders Over Rp. 200.000</Container>;
 };
 
 export default Announcement;
