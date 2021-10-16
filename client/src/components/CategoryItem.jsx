@@ -1,3 +1,4 @@
+// this component link display into ProductsList page!
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { mobile } from "../responsive";

@@ -53,7 +53,7 @@ const ListItem = styled.li`
   cursor: pointer;
 
   &:hover {
-    font-weight: 500;
+    font-weight: 580;
   }
 `;
 const Right = styled.div`
@@ -118,7 +118,7 @@ function Footer() {
         </ContactItem>
         <ContactItem>
           <MailOutlined style={{ marginRight: "10px" }} />
-          loyo.@gmail.com
+          loyo.@mail.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
