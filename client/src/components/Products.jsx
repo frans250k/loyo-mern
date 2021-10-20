@@ -41,7 +41,7 @@ function Products({ cat, filters, sort }) {
     }
   }, [sort]);
 
-  return <Container>{cat ? filteredProducts.map((item) => <Product item={item} key={item.id} />) : products.slice(0, 6).map((item) => <Product item={item} key={item.id} />)}</Container>;
+  return <Container>{cat ? filteredProducts.map((item) => <Product item={item} key={item._id} />) : products.slice(0, 8).map((item) => <Product item={item} key={item._id} />)}</Container>;
 }
 
 export default Products;
