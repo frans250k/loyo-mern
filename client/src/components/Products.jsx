@@ -21,7 +21,6 @@ function Products({ cat, filters, sort }) {
       try {
         const res = await axios.get(cat ? `http://localhost:3000/api/products?category=${cat}` : "http://localhost:3000/api/products");
         setProducts(res.data);
-        console.log(res);
       } catch (err) {}
     };
     getProducts();

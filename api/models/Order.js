@@ -4,14 +4,14 @@ const OrderSchema = new mongoose.Schema(
   {
     userId: {
       type: String,
-      requiered: true,
+      required: true,
     },
     products: [
       {
         ProductId: {
           type: String,
         },
-        quatity: {
+        quantity: {
           type: Number,
           default: 1,
         },
